@@ -1,0 +1,29 @@
+{
+  "name": "nxt-launch-api",
+  "version": "1.0.0",
+  "description": "Node API for Nxt Launch application",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethrandalldev/nxt-launch-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethrandalldev/nxt-launch-api/issues"
+  },
+  "homepage": "https://github.com/sethrandalldev/nxt-launch-api#readme"
+}
