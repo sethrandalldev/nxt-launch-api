@@ -14,7 +14,7 @@ const User = mongoose.model('User', {
 });
 
 app.use(cors({
-  origin: 'http://localhost:51253'
+  origin: 'http://localhost:59360'
 }));
 app.use(express.urlencoded({ extended: false }));
 
